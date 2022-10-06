@@ -1,0 +1,394 @@
+@font-face {
+  font-family: "OnePiece";
+  src: url("fonts/OnePiece-zAqL.ttf");
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "OnePiece", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background: url("img/Background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+  min-width: 600px;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-shadow: 0px 0px 10px black;
+  gap: 50px;
+}
+
+.header {
+  font-size: 2.5em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+p{
+  font-family: sans-serif;
+  color: black;
+  text-shadow: 0 0 5px white;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 2rem;
+  font-weight: bold;
+}
+
+#strawhat-flag {
+  width: 200px;
+  height: 200px;
+  border: 10px solid white;
+  border-radius: 50%;
+  background-image: url("img/Strawhat.jpg");
+  background-size: contain;
+}
+
+.luffy {
+  margin-top: 20px;
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.info {
+  margin-top: 20px;
+  height: 60%;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.luffy-gif {
+  background-image: url("img/Luffy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.luffy-gif:hover {
+  background-image: url("img/wano-luffy-wano.gif");
+}
+
+.zoro {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      green, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.zoro-gif {
+  background-image: url("img/Zoro.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.zoro-gif:hover {
+  background-image: url("img/Zoro.gif");
+}
+
+.sanji {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      lightgreen, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.sanji-gif {
+  background-image: url("img/Sanji.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.sanji-gif:hover{
+  background-image: url("img/Sanji.gif");
+}
+.nami {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      orange, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.nami-gif {
+  background-image: url("img/Nami.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.nami-gif:hover {
+  background-image: url("img/Nami.gif");
+}
+
+.ussop {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      yellow, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.ussop-gif {
+  background-image: url("img/Ussop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.ussop-gif:hover {
+  background-image: url("img/Ussop.gif");
+}
+
+.chopper {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      pink, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.chopper-gif {
+  background-image: url("img/Chopper.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.chopper-gif:hover {
+  background-image: url("img/Chopper.gif");
+}
+
+.robin {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      violet, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.robin-gif {
+  background-image: url("img/Robin.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.robin-gif:hover {
+  background-image: url("img/Robin.gif");
+}
+
+.franky {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      skyblue, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.franky-gif {
+  background-image: url("img/Franky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.franky-gif:hover {
+  background-image: url("img/Franky.gif");
+}
+
+.brook {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      blue, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.brook-gif {
+  background-image: url("img/Brook.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.brook-gif:hover {
+  background-image: url("img/Brook.gif");
+}
+
+.jinbe {
+  width: 400px;
+  height: 500px;
+  border: 5px solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      aquamarine, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.jinbe-gif {
+  background-image: url("img/Jinbe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.jinbe-gif:hover {
+  background-image: url("img/Jinbe.gif");
+}
+
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .luffy, .zoro, .sanji, .nami {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+}
+
+.info::-webkit-scrollbar{
+  display: none;
+}
